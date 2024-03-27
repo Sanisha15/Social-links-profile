@@ -1,0 +1,80 @@
+
+body
+{
+    text-align: center;
+    background-color: black;
+    font-family: 'Inter',arial,serif;
+    margin: auto;
+/*    width: 100%;*/
+    width: 1880px;
+}
+.mid_body  /*  making a box in the middle of webpage  */
+{
+    border-radius: 5%;
+    margin: 90px 35%; 
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: rgb(36, 34, 34);
+}
+h1
+{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+h2
+{
+    padding: 5px 0px 20px;
+    margin: auto;
+    font-size: 20px;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+}
+.block1
+{
+    color: white;
+}
+.block2
+{
+    padding: 5px;
+    color: rgb(255, 253, 253);
+    
+}
+.pic
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+button
+{ 
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: grey;
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;  
+    border-radius: 12px;   /* adding rounded corners */
+    
+}
+button:hover
+{
+    background-color: hsl(75, 94%, 57%);
+}
+
+/*
+A pixel(px) is an absolute unit of measurement, while (em) and (%) 
+relative units of measurement.
+
+A absolute unit of measurement means that the value may be interpreted
+by the browser, but not recalculated.
+
+A relative unit of measurement means that the value may be
+interpeted, and possibly also recalculated.
+
+
+*/
